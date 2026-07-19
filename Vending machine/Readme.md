@@ -1,1 +1,1 @@
-
+This Verilog code implements a Vending Machine Controller using a Finite State Machine (FSM). The machine accepts Rs. 5 and Rs. 10 coins and keeps track of the total amount using different states. When the total reaches Rs. 15, it dispenses an item without any change. If the user inserts Rs. 20, the machine dispenses the item and returns Rs. 5 as change. The reset signal initializes the machine to the starting state, ready for a new transaction
