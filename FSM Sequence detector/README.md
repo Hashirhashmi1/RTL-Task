@@ -1,1 +1,1 @@
-1101 Sequence detector
+This Verilog code implements a Moore Finite State Machine (FSM) to detect the binary sequence 1101. The FSM consists of five states, where each state represents the progress of matching the input sequence. On every positive edge of the clock, the FSM moves to the next state based on the input bit. When the complete sequence 1101 is detected, the FSM enters the final state and the output y becomes high. The reset signal initializes the FSM to the starting state, allowing the detection process to begin again.
