@@ -1,1 +1,1 @@
-
+This Verilog code implements a PS/2 Keyboard Receiver using a Finite State Machine (FSM). It receives serial data from a PS/2 keyboard through the PS2 clock and PS2 data lines. The FSM processes the start bit, 8-bit data, parity bit, and stop bit to receive a complete data frame. If the frame is received correctly, the data is stored in rx_data and the data_valid signal is asserted. If the stop bit is invalid, the frame_error signal is generated to indicate an incorrect frame
