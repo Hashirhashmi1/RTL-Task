@@ -1,1 +1,1 @@
-
+This Verilog code implements a First-In First-Out (FIFO) memory using an 8-byte storage array. It allows data to be written into the FIFO using the write (wr) signal and read using the read (rd) signal. The write pointer and read pointer keep track of where data is stored and retrieved. A count variable monitors the number of stored data items to determine whether the FIFO is full or empty. The reset signal initializes the pointers, counter, and output, preparing the FIFO for normal operation
