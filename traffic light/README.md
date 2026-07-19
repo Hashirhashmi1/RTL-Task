@@ -1,1 +1,1 @@
-
+This project is a simple Traffic Light Controller designed using Verilog HDL. It uses a Finite State Machine (FSM) to control the sequence of traffic lights. The controller changes the light from Red to Yellow to Green on each clock cycle and repeats the sequence continuously.
