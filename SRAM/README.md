@@ -1,1 +1,1 @@
-
+This project implements a simple AXI4-Lite Master and Slave interface in Verilog HDL. The design includes separate Master, Slave, Top Module, and Testbench files for modular development and simulation. The Master performs basic write and read transactions, while the Slave stores data in internal registers and responds according to the AXI4-Lite protocol. The design is intended for synthesis and behavioral simulation in Xilinx Vivado to demonstrate AXI communication.
