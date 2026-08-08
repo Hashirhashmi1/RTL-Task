@@ -1,1 +1,11 @@
+This project implements a simple APB (Advanced Peripheral Bus) system using SystemVerilog. It includes an APB master, slave, interface with master/slave modports, and a top module.
 
+The testbench uses a virtual interface to control and verify APB read and write transactions. A VCD dump is also generated for viewing the waveform in EPWave.
+
+Features
+APB Master and Slave
+SystemVerilog interface with modports
+Virtual interface-based testbench
+Read and write transactions
+Memory-based APB slave
+VCD waveform generation
